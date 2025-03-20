@@ -20,7 +20,7 @@
 10. [Хорошие гайды по гошке](https://www.willem.dev/articles/)
 
 ---
-#Организация кода**
+# Организация кода
 1. [12 правил организации кода](https://egonelbre.com/thoughts-on-code-organization/)
 2. [Еще одна версия 12 правил](https://12factor.net/)
 3. [организация кода для модуля](https://go.dev/doc/modules/layout)
