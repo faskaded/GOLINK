@@ -1,12 +1,17 @@
 # GOLINK
 Набор различных ссылок 
-# Платформы для изучения Go
+## Якори 
+[Платформы для изучения Go](#id1)
+[Базовые понятия Go](#id2)
+
+
+# Платформы для изучения Go <a name="id1"></a>
 1. [Exercism](https://exercism.org/tracks) — Куча заданий и базы для отработки навыков.
 2. [Vectree](https://vectree.ru/path/38) — Курс от джуна до мидла с мини-проектами и визуальными материалами.
 3. [CodeBasics](https://code-basics.com) — Бесплатное обучение Go.
 4. [Proglib](https://proglib.io/p/samouchitel-po-go-dlya-nachinayushchih-chast-1-osobennosti-i-sfera-primeneniya-go-ustanovka-nastroyka-2023-11-23) — многоступенчатый гайд по гошке
 ---
-# Базовые понятия Go
+# Базовые понятия Go <a name="id2"></a>
 
 1. [Основы Go на YourBasic](https://yourbasic.org/golang/)
 2. [Основы го на русском](https://tour.ardanlabs.com/tour/rus/list)
