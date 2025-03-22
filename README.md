@@ -44,8 +44,6 @@
 1. [Go Patterns: Перечень паттернов](https://github.com/AlexanderGrom/go-patterns)
 2. [Refactoring Guru: Паттерны на Go](https://refactoring.guru/ru/design-patterns/go)
 
-Вот отформатированный список ссылок и заголовков разделов для Git в Markdown-формате:
-
 ---
 
 ## Пакеты
