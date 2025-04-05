@@ -28,6 +28,7 @@
 8. [Указатели в го](https://www.alexedwards.net/blog/a-gentle-introduction-to-pointers)
 9. [Конфигурация линтера в го](https://olegk.dev/go-linters-configuration-the-right-version)
 10. [Хорошие гайды по гошке](https://www.willem.dev/articles/)
+11.  [Go: Structs & Interfaces](https://getstream.io/blog/go-structs-interfaces/)
 
 ---
 # Организация кода <a name="id3"></a>
@@ -46,6 +47,7 @@
 
 1. [Го ошибки](https://golang50shad.es/)
 2. [Ошибки Go](https://100go.co/)
+3. [Leak and Seek: A Go Runtime Mystery или расследование утечки памяти](https://cyolo.io/blog/leak-and-seek-a-go-runtime-mystery)
 
 ---
 
@@ -53,6 +55,7 @@
 
 1. [Go Patterns: Перечень паттернов](https://github.com/AlexanderGrom/go-patterns)
 2. [Refactoring Guru: Паттерны на Go](https://refactoring.guru/ru/design-patterns/go)
+3. [“Common Go Performance Patterns” — распространённые паттерны производительности в Go.](https://goperf.dev/01-common-patterns/)
 
 ---
 
@@ -139,7 +142,8 @@
 
 ## Горутины <a name="id12"></a>
 
-- **[Внутренности горутин и каналов в Go](https://proglib.io/w/94177b59)**  
+- **[Внутренности горутин и каналов в Go](https://proglib.io/w/94177b59)**
+- **[Goroutines in Go: A Practical Guide to Concurrency](https://getstream.io/blog/goroutines-go-concurrency-guide/)**
 
 ---
 
@@ -201,12 +205,13 @@
 
 ## БД <a name="id19"></a>
 
-6. **[Организация доступа к базе данных](https://www.alexedwards.net/blog/organising-database-access)**  
+1. **[Организация доступа к базе данных](https://www.alexedwards.net/blog/organising-database-access)**  
    Разбор четырёх методов организации доступа к базе данных на Go.
-7. **[Миграции базы данных с Migrate](https://thedevelopercafe.com/articles/database-migrations-in-go-using-migrate-package-5735cf056231)**  
+2. **[Миграции базы данных с Migrate](https://thedevelopercafe.com/articles/database-migrations-in-go-using-migrate-package-5735cf056231)**  
    Базовое руководство по использованию пакета migrate.
-8. **[Отслеживание изменений схемы базы данных](https://betterprogramming.pub/database-migrations-f3a227e29f5f)**  
+3. **[Отслеживание изменений схемы базы данных](https://betterprogramming.pub/database-migrations-f3a227e29f5f)**  
    Советы и простые практические приёмы.
+4.**[Книга по PostgreSQL]([https://betterprogramming.pub/database-migrations-f3a227e29f5f](https://u.habr.com/lXpYA)** 
 
 ---
 
@@ -358,7 +363,8 @@
    Множество гайдов с инструментами.
 - **[CNCF Landscape](https://landscape.cncf.io/)**  
    Все технологии.
-- **[DevSecOps обучение](https://devsecopsguides.com/docs/rules/go/)**  
+- **[DevSecOps обучение](https://devsecopsguides.com/docs/rules/go/)**
+- **[внедрение CI CD](https://proglib.io/sh/k31RpYdjES)** 
 
 ### Kubernetes <a name="id28"></a>
 
