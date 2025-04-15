@@ -15,6 +15,7 @@
 2. [Vectree](https://vectree.ru/path/38) — Курс от джуна до мидла с мини-проектами и визуальными материалами.
 3. [CodeBasics](https://code-basics.com) — Бесплатное обучение Go.
 4. [Proglib](https://proglib.io/p/samouchitel-po-go-dlya-nachinayushchih-chast-1-osobennosti-i-sfera-primeneniya-go-ustanovka-nastroyka-2023-11-23) — многоступенчатый гайд по гошке
+5. [Coddy tech](https://Coddy.tech) — множество курсов по гошке и не только
 ---
 # Базовые понятия Go <a name="id2"></a>
 
