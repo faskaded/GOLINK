@@ -16,6 +16,9 @@
 3. [CodeBasics](https://code-basics.com) — Бесплатное обучение Go.
 4. [Proglib](https://proglib.io/p/samouchitel-po-go-dlya-nachinayushchih-chast-1-osobennosti-i-sfera-primeneniya-go-ustanovka-nastroyka-2023-11-23) — многоступенчатый гайд по гошке
 5. [Coddy tech](https://Coddy.tech) — множество курсов по гошке и не только
+6. [Labex](https://labex.io/ru/courses) — множество практиковаться на виртуальных машинах и практиковать го плюс написать 5 проектов (остальное платное)
+7. [Quicref](https://quickref.me) — множество шпор
+8. https://codeby.games - отработка навыков хакинга
 ---
 # Базовые понятия Go <a name="id2"></a>
 
