@@ -63,11 +63,12 @@
 
 ---
 ## Linux <a name="id6"></a>
-https://labs.iximiuz.com/playgrounds - лабы
-https://kodekloud.com/free-labs
-https://linuxjourney.com/ - прямо с самого начала для детей
-https://linux-kernel-labs.github.io/refs/heads/master/index.html - лабы
-https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html - игра для линукс
+
+1. https://labs.iximiuz.com/playgrounds - лабы
+2. https://kodekloud.com/free-labs
+3. https://linuxjourney.com/ - прямо с самого начала для детей
+4. https://linux-kernel-labs.github.io/refs/heads/master/index.html - лабы
+5. https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html - игра для линукс
 ---
 ## Пакеты <a name="id6"></a>
 
