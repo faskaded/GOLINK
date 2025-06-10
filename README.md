@@ -62,7 +62,13 @@
 3. [“Common Go Performance Patterns” — распространённые паттерны производительности в Go.](https://goperf.dev/01-common-patterns/)
 
 ---
-
+## Linux <a name="id6"></a>
+https://labs.iximiuz.com/playgrounds - лабы
+https://kodekloud.com/free-labs
+https://linuxjourney.com/ - прямо с самого начала для детей
+https://linux-kernel-labs.github.io/refs/heads/master/index.html - лабы
+https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html - игра для линукс
+---
 ## Пакеты <a name="id6"></a>
 
 1. **[Список рекомендуемых библиотек](https://threedots.tech/post/list-of-recommended-libraries/)**  
