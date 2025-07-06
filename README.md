@@ -420,15 +420,20 @@
    Курс по Kubernetes.
 - **[Kubernetes VMware Cloud](https://vmc.techzone.vmware.com/kubernetes-vmware-cloud-course)**  
    Курс по Kubernetes.
+- https://docs.dobry-kot.ru/blog/kubernetes-the-hard-way/ - полный пошаговый гайд по сборке Kuberentes
 
 ### Сети <a name="id28"></a>
 
+- **[Сети с нуля с картинками](https://www.networksfromscratch.com/1.html)**
+- **[Сетевое устройство и обьяснение работы интернета с картинками](https://internetingishard.netlify.app/)**
 - **[8 частей о сетях](https://habr.com/ru/articles/307252/)**  
 - **[Сегментация сетей](https://habr.com/ru/articles/588705/)**  
    Для самых маленьких.
 - **[Практика сетей](https://linkmeup.gitbook.io/sdsm)**  
 - **[Реверс-прокси с динамическим бэкендом](https://www.artur-rodrigues.com/tech/2023/03/12/reverse-proxy-with-dynamic-backend-selection.html)**
-- **[Сетевое устройство и обьяснение работы интернета с картинками](https://internetingishard.netlify.app/)**
+- **[Вкратце об анонимных сетях и задачах анонимизации | Proxy, Onion, Dining Cryptographers](https://habr.com/ru/articles/912554/)**
+- **[Коллекция материалов по сетям ](https://github.com/SE-adm/Awesome-network/tree/main)**
+- **[Основные компоненты сетей](http://infocisco.ru/network_components.html)**
 
 ### Математика <a name="id29"></a>
 
