@@ -4,9 +4,37 @@
 1. [Платформы для изучения Go](#id1)
 2. [Базовые понятия Go](#id2)
 3. [Организация кода](#id3)
-4. [Базовые понятия Go](#id4)
-5. [Базовые понятия Go](#id5)
-6. [Базовые понятия Go](#id6)
+4. [Ошибки и их исправления](#id4)
+5. [Паттерны программирования в Go](#id5)
+6. [Linux](#id6)
+7. [Пакеты](#id7)
+8. [Серия статей о работе со временем в Go](#id8)
+9. [Тестирование](#id9)
+10. [Логирование](#id10)
+11. [API](#id11)
+12. [Конкурентность](#id12)
+13. [Горутины](#id13)
+14. [Дженерики](#id14)
+15. [Redis](#id15)
+16. [Алгоритмы](#id16)
+17. [Паттерны программирования в Go](#id17)
+18. [Введение в основные библиотеки](#id18)
+19. [Архитектура](#id19)
+20. [БД](#id20)
+21. [Практика](#id21)
+22. [Go и Docker](#id22)
+23. [Сети с Go](#id23)
+24. [Внутреннее строение](#id24)
+25. [Работа с файлами](#id25)
+26. [Go и HashiCorp](#id26)
+27. [DevOps](#id27)
+28. [Сети](#id28)
+29. [Математика](#id29)
+30. [Дополнительные инструменты](#id30)
+31. [Для кодинга](#id31)
+32. [Cheatsheet](#id32)
+33. [Интервью](#id33)
+34. [Низкоуровневое](#id33)
 
 
 
@@ -69,8 +97,9 @@
 3. https://linuxjourney.com/ - прямо с самого начала для детей
 4. https://linux-kernel-labs.github.io/refs/heads/master/index.html - лабы
 5. https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html - игра для линукс
+6. - **[Основы GNU/Linux](https://gnulinux.pro/)** 
 ---
-## Пакеты <a name="id6"></a>
+## Пакеты <a name="id7"></a>
 
 1. **[Список рекомендуемых библиотек](https://threedots.tech/post/list-of-recommended-libraries/)**  
    HTTP, базы данных, разработка CLI, тестирование, observability, конфигурация и многое другое: быстрый обзор 22-х Go-библиотек, проверенных в боевых условиях.
@@ -81,7 +110,7 @@
 4. **[Goyek v2.1.0](https://github.com/goyek/goyek/releases/tag/v2.1.0)**  
    Библиотека для автоматизации задач.
 
-### Серия статей о работе со временем в Go <a name="id7"></a>
+### Серия статей о работе со временем в Go <a name="id8"></a>
 
 - **[Parse timestamp formats](https://dev.to/aohorodnyk/parse-timestamp-on-backend-m0h)**  
 - **[Parse time from different non-timestamp formats](https://dev.to/aohorodnyk/parse-time-from-different-non-timestamp-formats-4kb9)**  
@@ -89,7 +118,7 @@
 
 ---
 
-## Тестирование <a name="id8"></a>
+## Тестирование <a name="id9"></a>
 
 ### Дополнение к книге "100 ошибок Go" от создателя
 
@@ -126,7 +155,7 @@
 
 ---
 
-## Логирование <a name="id9"></a>
+## Логирование <a name="id10"></a>
 
 1. **[Полный гайд по Zerolog](https://betterstack.com/community/guides/logging/zerolog/)**  
    Как установить, настроить и использовать Zerolog logger в Go-приложении.
@@ -136,14 +165,14 @@
 
 ---
 
-## API <a name="id10"></a>
+## API <a name="id11"></a>
 
 1. **[Golang APIs: скелетон для будущих проектов](https://blog.devgenius.io/golang-apis-a-skeleton-for-your-future-projects-a082dc4d6818)**  
    Серия статей о построении скелетона для API на Go.
 
 ---
 
-## Конкурентность <a name="id11"></a>
+## Конкурентность <a name="id12"></a>
 
 1. **[Concurrency, race conditions и контроль](https://sayedalesawy.hashnode.dev/concurrency-race-conditions-and-concurrency-control)**  
    Что такое конкурентность (можно читать перед книгой о конкурентности).
@@ -151,14 +180,14 @@
 
 ---
 
-## Горутины <a name="id12"></a>
+## Горутины <a name="id13"></a>
 
 - **[Внутренности горутин и каналов в Go](https://proglib.io/w/94177b59)**
 - **[Goroutines in Go: A Practical Guide to Concurrency](https://getstream.io/blog/goroutines-go-concurrency-guide/)**
 
 ---
 
-## Дженерики <a name="id13"></a>
+## Дженерики <a name="id14"></a>
 
 1. **[Туториал по дженерикам в Go](https://kovardin.ru/articles/go/generics/#%D0%BF%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D1%82%D0%B0%D0%BA-%D0%B4%D0%BE%D0%BB%D0%B3%D0%BE-%D0%B6%D0%B4%D0%B0%D0%BB%D0%B8)**  
    Введение в дженерики.
@@ -168,7 +197,7 @@
 
 ---
 
-## Redis <a name="id14"></a>
+## Redis <a name="id15"></a>
 
 - **[Глубокое погружение в Redis](https://architecturenotes.co/redis/)**  
    От топологий Redis до data persistence и разветвления процессов.
@@ -178,17 +207,21 @@
 
 ---
 
-## Алгоритмы <a name="id15"></a>
+## Алгоритмы <a name="id16"></a>
 
 1. **[TheAlgorithms/Go](https://github.com/TheAlgorithms/Go)**  
 2. **[Реализация дерева отрезков на Go](https://rtoch.com/posts/golang-segment-tree/)**  
    Подробная реализация Segment Tree.
 3. **[R*-tree в Go](https://habr.com/ru/post/666904/)**  
    Теория и детали реализации подвида алгоритма R-tree.
+4. **[Алгоритмы для ML и девопс](https://yandex.ru/yaintern/training)**
+5. **[бесплатный курс по алгоритмам от Слерм](https://slurm.io/algorithms)**
+  
+   
 
 ---
 
-## Паттерны программирования в Go <a name="id16"></a>
+## Паттерны программирования в Go <a name="id17"></a>
 
 4. **[Go-patterns](https://github.com/AlexanderGrom/go-patterns)**  
    Перечисление всех паттернов для Go.
@@ -197,7 +230,7 @@
 
 ---
 
-## Введение в основные библиотеки <a name="id17"></a>
+## Введение в основные библиотеки <a name="id18"></a>
 
 1. **[Cover - Spaceship Go](https://blasrodri.github.io/spaceship-go-gh-pages/cover.html)**  
 2. **[Requests v0.23.4](https://github.com/carlmjohnson/requests/releases/tag/v0.23.4)**  
@@ -206,15 +239,17 @@
 
 ---
 
-## Архитектуры <a name="id18"></a>
+## Архитектуры <a name="id19"></a>
 
 4. **[Go-coffeeshop](https://github.com/thangchung/go-coffeeshop)**  
    Пример приложения для кофейни на Go. Архитектура.
-5. **[Domain Driven Design в Go](https://habr.com/ru/companies/oleg-bunin/articles/791420/)**  
+5. **[Domain Driven Design в Go](https://habr.com/ru/companies/oleg-bunin/articles/791420/)**
+6. **[Architecture Notes Archive](https://architecturenotes.co/archive)**  
+   Полезные статьи.
 
 ---
 
-## БД <a name="id19"></a>
+## БД <a name="id20"></a>
 
 1. **[Организация доступа к базе данных](https://www.alexedwards.net/blog/organising-database-access)**  
    Разбор четырёх методов организации доступа к базе данных на Go.
@@ -226,7 +261,7 @@
 
 ---
 
-## Практика <a name="id20"></a>
+## Практика <a name="id21"></a>
 
 7. **[Coding Challenges](https://codingchallenges.fyi/challenges/intro)**  
    Челленджи.
@@ -295,7 +330,7 @@
 43. **[Кэширование Go-тестов в CI](https://www.airplane.dev/blog/caching-golang-tests-in-ci)**  
     Как сократить время прогона тестов в CI.
 
-### Go и Docker <a name="id21"></a>
+### Go и Docker <a name="id22"></a>
 
 - **[Отладка в Docker](https://www.kenaqshal.com/blog/debugging-dockerized-go-applications)**  
    Отладка Go-приложений в Docker-контейнерах с VS Code.
@@ -304,7 +339,7 @@
 
 ---
 
-## Сети с Go <a name="id22"></a>
+## Сети с Go <a name="id23"></a>
 
 1. **[Типобезопасные HTTP-запросы](https://dev.to/kevwan/sending-type-safe-http-requests-with-go-5h2l)**  
    Заметки по использованию пакета httpc из go-zero.
@@ -315,7 +350,7 @@
 
 ---
 
-## Внутреннее строение <a name="id23"></a>
+## Внутреннее строение <a name="id24"></a>
 
 1. **[Go CPU Profiler под капотом](https://sumercip.com/posts/inside-the-go-cpu-profiler/)**  
 2. **[Системные вызовы Go в Windows](https://leandrofroes.github.io/posts/An-in-depth-look-at-Golang-Windows-calls/)**  
@@ -340,7 +375,7 @@
 15. **[Go Internals](https://cmc.gitbook.io/go-internals)**  
     Внутреннее устройство Go.
 
-### Серия о слайсах под капотом <a name="id24"></a>
+### Серия о слайсах под капотом 
 
 - **[Build your own slice: Arrays and slices](https://www.willem.dev/articles/build-your-own-slice-start-here/)**  
 - **[Build your own slice: Append and Copy](https://www.willem.dev/articles/build-your-own-slice-append-copy/)**  
@@ -377,7 +412,7 @@
 - **[DevSecOps обучение](https://devsecopsguides.com/docs/rules/go/)**
 - **[внедрение CI CD](https://proglib.io/sh/k31RpYdjES)** 
 
-### Kubernetes <a name="id28"></a>
+### Kubernetes 
 
 - **[Cilium и AKS](https://isovalent.com/blog/post/cilium-egress-gateway-aks/)**  
    Развёртывание Cilium и выходного шлюза в Azure Kubernetes.
@@ -386,46 +421,52 @@
 - **[Kubernetes VMware Cloud](https://vmc.techzone.vmware.com/kubernetes-vmware-cloud-course)**  
    Курс по Kubernetes.
 
-### Сети <a name="id29"></a>
+### Сети <a name="id28"></a>
 
 - **[8 частей о сетях](https://habr.com/ru/articles/307252/)**  
 - **[Сегментация сетей](https://habr.com/ru/articles/588705/)**  
    Для самых маленьких.
 - **[Практика сетей](https://linkmeup.gitbook.io/sdsm)**  
-- **[Реверс-прокси с динамическим бэкендом](https://www.artur-rodrigues.com/tech/2023/03/12/reverse-proxy-with-dynamic-backend-selection.html)**  
+- **[Реверс-прокси с динамическим бэкендом](https://www.artur-rodrigues.com/tech/2023/03/12/reverse-proxy-with-dynamic-backend-selection.html)**
+- **[Сетевое устройство и обьяснение работы интернета с картинками](https://internetingishard.netlify.app/)**
 
-### Linux <a name="id30"></a>
+### Математика <a name="id29"></a>
 
-- **[Основы GNU/Linux](https://gnulinux.pro/)**  
+- **[Начальная математика](https://www.youtube.com/watch?v=NyAggwR2trA&list=PLtYNtkKY2LiZsKeA_Csrlh1yZoQDojhVq&ab_channel=Myuniversity)**  
+- **[Мат анализ](https://www.youtube.com/@teachin-ru/search?query=%D0%B1%D1%83%D1%82%D1%83%D0%B7%D0%BE%D0%B2)**
+- **[Мат логика](https://www.youtube.com/watch?v=GvYjRFNbms8&list=PL4_hYwCyhAvap4WZdKoNvmJYxDZgGmkhc&ab_channel=%D0%9B%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%B9%D0%A4%D0%9F%D0%9C%D0%98)**
+- **[Теория Галуа](https://www.youtube.com/watch?v=h-EOann0fVk&list=PLeURvsEJKXbj_Y2QWIoB2JCwo_HpZegz_&ab_channel=Myuniversity)**
 
----
 
-## Дополнительные инструменты <a name="id31"></a>
+## Дополнительные инструменты <a name="id30"></a>
 
 - **[Hotkey Cheatsheet](https://hotkeycheatsheet.com/ru)**  
    Все шорткаты для разных программ.
 - **[Airtable](https://airtable.com/)**  
    Фриланс.
-- **[Тестовые задания](https://github.com/Hexlet/ru-test-assignments?tab=readme-ov-file)**  
 
-### Для кодинга <a name="id32"></a>
+
+### Для кодинга <a name="id31"></a>
 
 1. **[VS Code для Go](https://bitfieldconsulting.com/golang/vs-code-go)**  
    Обзор полезных возможностей.
 2. **[Настройка Neovim для Go](https://habr.com/ru/post/678298/)**  
    Использование плагинов Lua.
 
-### Cheatsheet <a name="id33"></a>
+### Cheatsheet <a name="id32"></a>
 
-4. **[Go Cheatsheet](https://devhints.io/go)**  
+4. **[Go Cheatsheet](https://devhints.io/go)**
+5. **[Cheatsheet для всех языков](https://quickref.me/)**
 
 ---
 
-## Интервью <a name="id34"></a>
+## Интервью <a name="id33"></a>
 
 - **[Подготовка к алгоритмическим интервью](https://habr.com/ru/companies/cloud_mts/articles/735348/)**  
    Опыт с примерами на Go.
-- **[Задачи и вопросы по програмиированию с реальных собеседований](https://it-interview.io/interview-tasks)**  
+- **[Задачи и вопросы по програмиированию с реальных собеседований](https://it-interview.io/interview-tasks)**
+- **[Тестовые задания](https://github.com/Hexlet/ru-test-assignments?tab=readme-ov-file)**
+- **[Тестовые задания и вопрос 2](https://it-interview.io/interview-tasks)**  
   
 ---
 
@@ -435,8 +476,7 @@
 
 ---
 
-- **[Architecture Notes Archive](https://architecturenotes.co/archive)**  
-   Полезные статьи.
+
 
 ---
 
