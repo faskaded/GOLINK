@@ -97,7 +97,8 @@
 3. https://linuxjourney.com/ - прямо с самого начала для детей
 4. https://linux-kernel-labs.github.io/refs/heads/master/index.html - лабы
 5. https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html - игра для линукс
-6. - **[Основы GNU/Linux](https://gnulinux.pro/)** 
+6. - **[Основы GNU/Linux](https://gnulinux.pro/)**
+7.  - **[Обучение линукс, а именно командам путем детального описания](https://explainshell.com/ )**
 ---
 ## Пакеты <a name="id7"></a>
 
@@ -216,6 +217,7 @@
    Теория и детали реализации подвида алгоритма R-tree.
 4. **[Алгоритмы для ML и девопс](https://yandex.ru/yaintern/training)**
 5. **[бесплатный курс по алгоритмам от Слерм](https://slurm.io/algorithms)**
+6. https://github.com/tayllan/awesome-algorithms - все о алгаритмах 
   
    
 
@@ -465,14 +467,48 @@
 
 ---
 
-## Интервью <a name="id33"></a>
+## Интервью, собесы, задания<a name="id33"></a>
 
 - **[Подготовка к алгоритмическим интервью](https://habr.com/ru/companies/cloud_mts/articles/735348/)**  
    Опыт с примерами на Go.
 - **[Задачи и вопросы по програмиированию с реальных собеседований](https://it-interview.io/interview-tasks)**
 - **[Тестовые задания](https://github.com/Hexlet/ru-test-assignments?tab=readme-ov-file)**
-- **[Тестовые задания и вопрос 2](https://it-interview.io/interview-tasks)**  
-  
+- **[Тестовые задания и вопрос 2](https://it-interview.io/interview-tasks)**
+- **[Чеклист для проверки себя перед собесом](https://gist.github.com/Voley/fbbb7b0d822464ac03999ee85a3d2c4f)**
+- **[Техническое собеседование на Senior Go Developer на вб](https://youtu.be/N12lmpYUXFo)**
+- **[Техническое собеседование на Senior Go Developer на вб 2](https://youtu.be/TU9ap77Qupw)**
+- **[Техническое собеседование на Senior Go Developer в IDS](https://youtu.be/H4HLv3wESlE)**
+- **[Техническое собеседование на Senior Go Developer в Холодильник ру](https://youtu.be/dbUFVRKGU3A)**
+- **[Техническое собеседование на Senior Go Developer в Indrive Кипр](https://youtu.be/LyIzIqDaXgE)**
+- **[Техническое собеседование на Senior Go Developer в Займиго (Кредиска)](https://youtu.be/FS6IZHE4acs)**
+- **[Техническое собеседование на Senior Go Developer в Ozon](https://youtu.be/Q6FZ4q-_YKQ)**
+- **[Техническое собеседование на Senior Go Developer в Самокат](https://youtu.be/EuXUvcYtGdI)**
+- **[Техническое собеседование на Senior Go Developer в EMCD](https://youtu.be/UIKMsnmhw0A)**
+- **[Техническое собеседование на Senior Go Developer в GsmSoft](https://youtu.be/Bq07XvvS6_E)**
+- **[Техническое собеседование на Senior Go Developer в Startribe](https://youtu.be/VhFqMGMwot8)**
+- **[Техническое собеседование на Senior Go Developer в Evrone](https://youtu.be/exEJvhGfd74)**
+- **[Собеседование на Senior Go Developer в Wildberries Склад](https://youtu.be/tDNMk0fvhe4)**
+- **[Собеседование на Middle Go Developer в ZTC (Zonatelecom)](https://youtu.be/_BbcSh0bCZQ)**
+- Решение задач из предыдущей записи https://www.bolshoyvopros.ru/questions/3388582-kak-najti-falshivuju-monetu-odnim-vzveshivaniem.html
+- **[Собеседование на Senior Go Developer на 400к в Автомакон](https://youtu.be/N_TLjhNJgs0)**
+- **[Собеседование на Go Developer в Сбермаркет](https://youtu.be/0vL6NhM8h0E)**
+- **[Самое токсичное собеседование из опыта - Middle Go Developer (400к)](https://youtu.be/ICiGUsleGsU)**
+- **[Собеседование на Senior Go Developer (400к) МТС Cloud](https://youtu.be/bGa2hBnac1w)**
+- **[Собеседование на Senior Go Developer (400к) Бери Заряд](https://youtu.be/p6kix_4EClg)**
+- **[Собеседование на Senior Go Developer (450к) Positive Technologies](https://youtu.be/Ko_2nMrsgVU)**
+- **[Собеседование на Middle Go Developer (400к) Astral Soft](https://youtu.be/kjVDYXVM3oo)**
+- **[Собеседование на Middle Go Developer (400к) Notix Games](https://youtu.be/vEZk1FLY83A)**
+- **[Собеседование на Middle Go Developer (400к) Notix Games 2 часть ](https://youtu.be/IBzfUvTPkss)**
+- **[Собеседование на Middle Go Developer (400к) Авито](https://youtu.be/fj3Fv-SaO14)**
+- **[Систем дизайн собеседование на 400к CyberOk](https://youtu.be/-Nj612lClvA)**
+  Задачи для live coding
+- 1. https://drive.google.com/drive/folders/155UD4MGbqf2Vm1b1Tu_80AtQiHdINNkM  
+
+- 2. https://github.com/nosuchpersonn/golang_interview/tree/main/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B8  
+
+- 3. https://docs.google.com/document/d/1OhigKR_M4EM5rL1B7jpoYqxYEwyzQzoTW4MtL27Ua00/edit#heading=h.tvecg1f7bylq  
+
+- 4. https://docs.google.com/document/d/1OXf2Ju-jz1DtkcczW6AfAAVR4ZueZlztRy6RlsUik_Y/edit#heading=h.jwfk49js0v6
 ---
 
 ## Низкоуровневое <a name="id35"></a>
@@ -480,7 +516,14 @@
 - **[Манипуляции с битами в Go](https://habr.com/ru/companies/ruvds/articles/744230/)**  
 
 ---
+## Обучение SQL <a name="id36"></a>
 
+- **[Манипуляции с битами в Go](https://habr.com/ru/companies/ruvds/articles/744230/)**  
+
+---
+## Обьяснений различных понятий (не только про го) <a name="id36"></a>
+
+- **[Можно узнать о разных вещах в программировании](https://se-education.org/learningresources/)**  
 
 
 ---
