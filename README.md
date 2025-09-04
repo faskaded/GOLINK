@@ -173,6 +173,7 @@
 
 1. **[Golang APIs: скелетон для будущих проектов](https://blog.devgenius.io/golang-apis-a-skeleton-for-your-future-projects-a082dc4d6818)**  
    Серия статей о построении скелетона для API на Go.
+2. https://escape.tech/academy/ - можно изучить защиту апи и ее атаку, для тестирования своего продукта
 
 ---
 
@@ -251,6 +252,7 @@
 5. **[Domain Driven Design в Go](https://habr.com/ru/companies/oleg-bunin/articles/791420/)**
 6. **[Architecture Notes Archive](https://architecturenotes.co/archive)**  
    Полезные статьи.
+7. https://laurentsv.com/blog/2024/10/19/no-nonsense-go-package-layout.html - структура проекта
 
 ---
 
