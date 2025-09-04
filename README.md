@@ -34,7 +34,9 @@
 31. [Для кодинга](#id31)
 32. [Cheatsheet](#id32)
 33. [Интервью](#id33)
-34. [Низкоуровневое](#id33)
+34. [Низкоуровневое](#id34)
+35. [Обучение SQL](#id35)
+36. [ Обьяснений различных понятий](#id36)
 
 
 
@@ -44,9 +46,10 @@
 3. [CodeBasics](https://code-basics.com) — Бесплатное обучение Go.
 4. [Proglib](https://proglib.io/p/samouchitel-po-go-dlya-nachinayushchih-chast-1-osobennosti-i-sfera-primeneniya-go-ustanovka-nastroyka-2023-11-23) — многоступенчатый гайд по гошке
 5. [Coddy tech](https://Coddy.tech) — множество курсов по гошке и не только
-6. [Labex](https://labex.io/ru/courses) — множество практиковаться на виртуальных машинах и практиковать го плюс написать 5 проектов (остальное платное)
-7. [Quicref](https://quickref.me) — множество шпор
-8. https://codeby.games - отработка навыков хакинга
+6. https://www.concurrency.rocks/ - там сразу можно изучить и антипаттерны, конкуренцию, горутины, оптимизации поиска и многое другое, не знал куда именно определеить, поэтому тут
+7. [Labex](https://labex.io/ru/courses) — множество практиковаться на виртуальных машинах и практиковать го плюс написать 5 проектов (остальное платное)
+8. [Quicref](https://quickref.me) — множество шпор
+9. https://codeby.games - отработка навыков хакинга
 ---
 # Базовые понятия Go <a name="id2"></a>
 
@@ -511,12 +514,12 @@
 - 4. https://docs.google.com/document/d/1OXf2Ju-jz1DtkcczW6AfAAVR4ZueZlztRy6RlsUik_Y/edit#heading=h.jwfk49js0v6
 ---
 
-## Низкоуровневое <a name="id35"></a>
+## Низкоуровневое <a name="id34"></a>
 
 - **[Манипуляции с битами в Go](https://habr.com/ru/companies/ruvds/articles/744230/)**  
 
 ---
-## Обучение SQL <a name="id36"></a>
+## Обучение SQL <a name="id35"></a>
 
 - **[Манипуляции с битами в Go](https://habr.com/ru/companies/ruvds/articles/744230/)**  
 
