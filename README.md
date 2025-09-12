@@ -44,13 +44,14 @@
 # Платформы для изучения Go <a name="id1"></a>
 1. [Exercism](https://exercism.org/tracks) — Куча заданий и базы для отработки навыков.
 2. [Vectree](https://vectree.ru/path/38) — Курс от джуна до мидла с мини-проектами и визуальными материалами.
-3. [CodeBasics](https://code-basics.com) — Бесплатное обучение Go.
-4. [Proglib](https://proglib.io/p/samouchitel-po-go-dlya-nachinayushchih-chast-1-osobennosti-i-sfera-primeneniya-go-ustanovka-nastroyka-2023-11-23) — многоступенчатый гайд по гошке
-5. [Coddy tech](https://Coddy.tech) — множество курсов по гошке и не только
-6. https://www.concurrency.rocks/ - там сразу можно изучить и антипаттерны, конкуренцию, горутины, оптимизации поиска и многое другое, не знал куда именно определеить, поэтому тут
-7. [Labex](https://labex.io/ru/courses) — множество практиковаться на виртуальных машинах и практиковать го плюс написать 5 проектов (остальное платное)
-8. [Quicref](https://quickref.me) — множество шпор
-9. https://codeby.games - отработка навыков хакинга
+3. https://selectel.ru/blog/courses/ - множество курсов бесплатных от го до иб и различных статей в придачу
+4. [CodeBasics](https://code-basics.com) — Бесплатное обучение Go.
+5. [Proglib](https://proglib.io/p/samouchitel-po-go-dlya-nachinayushchih-chast-1-osobennosti-i-sfera-primeneniya-go-ustanovka-nastroyka-2023-11-23) — многоступенчатый гайд по гошке
+6. [Coddy tech](https://Coddy.tech) — множество курсов по гошке и не только
+7. https://www.concurrency.rocks/ - там сразу можно изучить и антипаттерны, конкуренцию, горутины, оптимизации поиска и многое другое, не знал куда именно определеить, поэтому тут
+8. [Labex](https://labex.io/ru/courses) — множество практиковаться на виртуальных машинах и практиковать го плюс написать 5 проектов (остальное платное)
+9. [Quicref](https://quickref.me) — множество шпор
+10. https://codeby.games - отработка навыков хакинга
 ---
 # Базовые понятия Go <a name="id2"></a>
 
