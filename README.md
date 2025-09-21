@@ -52,6 +52,7 @@
 8. [Labex](https://labex.io/ru/courses) — множество практиковаться на виртуальных машинах и практиковать го плюс написать 5 проектов (остальное платное)
 9. [Quicref](https://quickref.me) — множество шпор
 10. https://codeby.games - отработка навыков хакинга
+11. https://www.willem.dev/articles/ - платформа с различнывми понятиями и обьяснениями тем в го
 ---
 # Базовые понятия Go <a name="id2"></a>
 
@@ -133,18 +134,19 @@
 
 1. **[Установка Go | Изучение Go через тестирование](https://s0xzwasd.gitbook.io/learn-go-with-tests-ru/osnovy-go/install-go)**  
 2. **[Тестирование в Go](https://proglib.io/w/40f22786)**  
-3. **[GolangCI-Lint](https://golangci-lint.run/)**  
+3. **[GolangCI-Lint](https://golangci-lint.run/)**
+4. https://habr.com/ru/companies/netologyru/articles/947796/ - интеграционное тестирование 
    Библиотека для тестов.
-4. **[GopherCon 2022](https://www.youtube.com/watch?v=v24wrd3RwGo&list=PL2ntRZ1ySWBfiSJSt-zPRbVSMDfK0EwQC)**  
+5. **[GopherCon 2022](https://www.youtube.com/watch?v=v24wrd3RwGo&list=PL2ntRZ1ySWBfiSJSt-zPRbVSMDfK0EwQC)**  
    От синтаксического анализа и сборки мусора до WebAssembly и фаззинг-тестирования: доклады на GopherCon 2022.
-5. **[Comprehensive Guide to Testing in Go](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/)**  
+6. **[Comprehensive Guide to Testing in Go](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/)**  
    Полное руководство по тестированию.
-6. **[Про фаззинг](https://habr.com/ru/company/kaspersky/blog/696724/)**  
-7. **[How to Write Accurate Benchmarks in Go](https://teivah.medium.com/how-to-write-accurate-benchmarks-in-go-4266d7dd1a95)**  
+7. **[Про фаззинг](https://habr.com/ru/company/kaspersky/blog/696724/)**  
+8. **[How to Write Accurate Benchmarks in Go](https://teivah.medium.com/how-to-write-accurate-benchmarks-in-go-4266d7dd1a95)**  
    Разбор четырёх распространённых ловушек, которые ведут к неточностям тестирования в Go.
-8. **[Create Your Tests Easily](https://habr.com/ru/company/ozontech/blog/672678/)**  
+9. **[Create Your Tests Easily](https://habr.com/ru/company/ozontech/blog/672678/)**  
    Анонс open source библиотеки от Ozon Tech в BDD-стиле, которая облегчает создание автотестов.
-9. **[Безопасность цепочки поставок с Go](https://t.me/goproglib/3560)**  
+10. **[Безопасность цепочки поставок с Go](https://t.me/goproglib/3560)**  
 
 ### Безопасность цепочки поставок: серия статей Go-разработчика
 
@@ -272,71 +274,72 @@
 
 ## Практика <a name="id21"></a>
 
-7. **[Coding Challenges](https://codingchallenges.fyi/challenges/intro)**  
+7. **[Coding Challenges](https://codingchallenges.fyi/challenges/intro)** 
    Челленджи.
 8. **[Interactive Go Challenges](https://tutorialedge.net/challenges/go/)**  
    Челленджи по Go.
-9. **[Go Telegram Bot API](https://go-telegram-bot-api.dev/)**  
+10. **[Go Telegram Bot API](https://go-telegram-bot-api.dev/)**  
    Полное руководство по созданию бота на Go.
-10. **[Gophercises](https://gophercises.com/)**  
+11. **[Gophercises](https://gophercises.com/)**  
     20 практических задач.
-11. **[GraphQL-сервер на Go](https://tech.trivago.com/post/2023-05-17-building-our-first-graphql-server-with-go-an-implementation-guide)**  
+12. **[GraphQL-сервер на Go](https://tech.trivago.com/post/2023-05-17-building-our-first-graphql-server-with-go-an-implementation-guide)**  
     Реализация GraphQL-сервера.
-12. **[CLI-инструмент с Cobra](https://www.twilio.com/blog/use-cobra-build-go-powered-clis)**  
+13. **[CLI-инструмент с Cobra](https://www.twilio.com/blog/use-cobra-build-go-powered-clis)**  
     Пошаговый гайд по созданию CLI-инструмента.
-13. **[Бессерверный бот Discord](https://www.openfaas.com/blog/build-a-serverless-discord-bot/)**  
+14. **[Бессерверный бот Discord](https://www.openfaas.com/blog/build-a-serverless-discord-bot/)**  
     Разработка с OpenFaaS и Go.
-14. **[FaaS в Go с WASM](https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/)**  
+15. **[FaaS в Go с WASM](https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/)**  
     Пишем простой FaaS-сервер для модулей на WASM.
-15. **[Отладка CLI-проектов](https://youtu.be/vInn3KNF1x4)**  
+16. **[Отладка CLI-проектов](https://youtu.be/vInn3KNF1x4)**  
     Отладка CLI-проектов на Go с помощью VS Code.
-16. **Пишем Uber на Go**  
+17. **Пишем Uber на Go**  
     - [Часть 1](https://medium.com/@mhrlife/building-an-online-taxi-app-like-uber-with-golang-part-1-nearby-taxis-c509168ef59f)  
     - [Часть 2](https://medium.com/@mhrlife/building-an-online-taxi-app-like-uber-with-golang-part-2-scalability-and-authorization-4583d51f22a3)  
     - [Часть 3](https://medium.com/@mhrlife/building-an-online-taxi-app-like-uber-with-golang-part-3-redis-to-rescue-ab579cfdd299)  
     - [Часть 4](https://medium.com/@mhrlife/building-an-online-taxi-app-like-uber-with-golang-part-4-why-golang-1cd70d416417)  
-17. **[Реализация анонимной сети](https://habr.com/ru/articles/745256/)**  
-18. **[Создание мониторинга](https://encore.dev/docs/tutorials/uptime)**  
-19. **[Разработка и публикация Go-пакета](https://medium.com/the-godev-corner/how-to-create-publish-a-go-public-package-9034e6bfe4a9)**  
+18. **[Реализация анонимной сети](https://habr.com/ru/articles/745256/)**
+19. **[Создание VM](https://blog.phakorn.com/posts/2025/building-a-simple-vm/)** - 
+20. **[Создание мониторинга](https://encore.dev/docs/tutorials/uptime)**  
+21. **[Разработка и публикация Go-пакета](https://medium.com/the-godev-corner/how-to-create-publish-a-go-public-package-9034e6bfe4a9)**  
     Пошаговое руководство.
-20. **[Видео](https://youtu.be/gnchfOojMk4)**  
-21. **[Practical Go Lessons](https://www.practical-go-lessons.com/)**  
+22. **[Видео](https://youtu.be/gnchfOojMk4)**  
+23. **[Practical Go Lessons](https://www.practical-go-lessons.com/)**  
     Книга для понимания устройства Go.
-22. **[One Billion Row Challenge](https://r2p.dev/b/2024-03-18-1brc-go/)**  
+24. **[One Billion Row Challenge](https://r2p.dev/b/2024-03-18-1brc-go/)**  
     Решение задачи 1BRC.
-23. **[Terminal User Interface с Go](https://earthly.dev/blog/tui-app-with-go/)**  
-24. **[Балансировщик нагрузки](https://domenicoluciani.com/2024/02/12/creating-an-application-layer-load-balancer.html)**  
+25. **[Terminal User Interface с Go](https://earthly.dev/blog/tui-app-with-go/)**  
+26. **[Балансировщик нагрузки](https://domenicoluciani.com/2024/02/12/creating-an-application-layer-load-balancer.html)**  
     Создание балансировщика нагрузки прикладного уровня.
-25. **[DNS-преобразователь](https://domenicoluciani.com/2024/05/07/create-dns-resolver.html)**  
+27. **[DNS-преобразователь](https://domenicoluciani.com/2024/05/07/create-dns-resolver.html)**  
     Создание DNS-преобразователя с помощью Golang.
-26. **[DevOps Exercises](https://github.com/bregman-arie/devops-exercises?tab=readme-ov-file)**  
+28. **[DevOps Exercises](https://github.com/bregman-arie/devops-exercises?tab=readme-ov-file)**  
     Задания для практики по Go.
-27. **[Анонимный мессенджер](https://habr.com/ru/post/701488/)**  
+29. **[Анонимный мессенджер](https://habr.com/ru/post/701488/)**  
     Теория и практика разработки на основе HLS.
-28. **[100 Golang Exercises](https://github.com/cblte/100-golang-exercises)**  
+30. **[100 Golang Exercises](https://github.com/cblte/100-golang-exercises)**  
     Челленджи.
-29. **[WebSocket эхо-сервер](https://habr.com/ru/post/674694/)**  
+31. **[WebSocket эхо-сервер](https://habr.com/ru/post/674694/)**  
     Имплементация простого WebSocket эхо-сервера.
-30. **[Распределённая трассировка](https://dev.to/signoz/implementing-distributed-tracing-in-a-golang-application-5cm1)**  
+32. **[Распределённая трассировка](https://dev.to/signoz/implementing-distributed-tracing-in-a-golang-application-5cm1)**  
     Руководство с OpenTelemetry и SigNoz.
-31. **[Внешняя Go-библиотека](https://habr.com/ru/company/ozontech/blog/668254/)**  
+33. **[Внешняя Go-библиотека](https://habr.com/ru/company/ozontech/blog/668254/)**  
     Написание удобной для экспорта и импорта библиотеки.
-32. **Машинное обучение на Go**  
+34. **Машинное обучение на Go**  
     - [Теория](https://medium.com/@kcatstack/sentiment-analysis-naive-bayes-classifier-from-scratch-part-1-theory-4949115ba13)  
     - [Практика](https://medium.com/@kcatstack/naive-bayes-classifier-from-scratch-part-2-nlp-in-golang-81c2a103ee06)  
-33. **[Компилятор, часть 1](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-1/)**  
-34. **[Компилятор, часть 2](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-2/)**  
-35. **[Распределённое key-value хранилище](https://notes.eatonphil.com/2023-05-25-raft.html)**  
-36. **[Анализ Go-бинарей с gftrace](https://0xdf.gitlab.io/2024/05/07/gftrace.html)**  
-37. **[Реверс Go-бинарей с Ghidra](https://youtu.be/J2svN8h21oo)**  
-38. **[Самый маленький Go-бинарный файл](https://totallygamerjet.hashnode.dev/the-smallest-go-binary-5kb)**  
+35. **[Компилятор, часть 1](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-1/)**  
+36. **[Компилятор, часть 2](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-2/)**  
+37. **[Распределённое key-value хранилище](https://notes.eatonphil.com/2023-05-25-raft.html)**  
+38. **[Анализ Go-бинарей с gftrace](https://0xdf.gitlab.io/2024/05/07/gftrace.html)**  
+39. **[Реверс Go-бинарей с Ghidra](https://youtu.be/J2svN8h21oo)**  
+40. **[Самый маленький Go-бинарный файл](https://totallygamerjet.hashnode.dev/the-smallest-go-binary-5kb)**  
     Создание компилятора C на Go.
-39. **[Terminal User Interface с Go](https://earthly.dev/blog/tui-app-with-go/)**  
-40. **[Приложения с GUI](https://proglib.io/w/b1a5c90d)**  
-41. **[Hello World в ядре Linux](https://blog.sigma-star.at/post/2023/07/embedded-go-prog/)**  
-42. **Создание шаблона аутентификации с нуля (Go, GoFiber, PostgreSQL)**  
+41. **[Terminal User Interface с Go](https://earthly.dev/blog/tui-app-with-go/)**  
+42. **[Приложения с GUI](https://proglib.io/w/b1a5c90d)**  
+43. **[Hello World в ядре Linux](https://blog.sigma-star.at/post/2023/07/embedded-go-prog/)**  
+44. **Создание шаблона аутентификации с нуля (Go, GoFiber, PostgreSQL)**  
     - [Сервер с PostgreSQL](https://dev.to/mdfaizan7/create-a-server-with-postgresql-in-go-part-1-3-of-go-authentication-series-3127)  
-43. **[Кэширование Go-тестов в CI](https://www.airplane.dev/blog/caching-golang-tests-in-ci)**  
+45. **[Кэширование Go-тестов в CI](https://www.airplane.dev/blog/caching-golang-tests-in-ci)**  
     Как сократить время прогона тестов в CI.
 
 ### Go и Docker <a name="id22"></a>
@@ -380,9 +383,11 @@
     Сложно, но полезно для понимания языка.
 13. **[gRPC-Gateway](https://habr.com/ru/companies/ozonbank/articles/817381/)**  
     Детальный взгляд на стандартизацию.
-14. **[Компиляция в машинный код](https://getstream.io/blog/how-a-go-program-compiles-down-to-machine-code/)**  
-15. **[Go Internals](https://cmc.gitbook.io/go-internals)**  
+14. **[Компиляция в машинный код](https://getstream.io/blog/how-a-go-program-compiles-down-to-machine-code/)**
+15.  **[как Go управляет памятью](https://nghiant3223.github.io/2025/06/03/memory_allocation_in_go.html)**
+16. **[Go Internals](https://cmc.gitbook.io/go-internals)**  
     Внутреннее устройство Go.
+    
 
 ### Серия о слайсах под капотом 
 
@@ -475,7 +480,7 @@
 ---
 
 ## Интервью, собесы, задания<a name="id33"></a>
-
+- https://yeahub.ru/questions?page=1&status=all&specialization=23 - вопросы по го для собеседования и не только
 - **[Подготовка к алгоритмическим интервью](https://habr.com/ru/companies/cloud_mts/articles/735348/)**  
    Опыт с примерами на Go.
 - **[Задачи и вопросы по програмиированию с реальных собеседований](https://it-interview.io/interview-tasks)**
