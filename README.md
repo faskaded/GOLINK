@@ -67,6 +67,7 @@
 9. [Конфигурация линтера в го](https://olegk.dev/go-linters-configuration-the-right-version)
 10. [Хорошие гайды по гошке](https://www.willem.dev/articles/)
 11.  [Go: Structs & Interfaces](https://getstream.io/blog/go-structs-interfaces/)
+12.  https://go-cookbook.com - снипеты и примеры кода для го
 
 ---
 # Организация кода <a name="id3"></a>
