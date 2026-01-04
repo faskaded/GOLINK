@@ -42,119 +42,125 @@
 
 
 # Платформы для изучения Go <a name="id1"></a>
-1. [Exercism](https://exercism.org/tracks) — Куча заданий и базы для отработки навыков.
-2. [Vectree](https://vectree.ru/path/38) — Курс от джуна до мидла с мини-проектами и визуальными материалами.
-3. https://selectel.ru/blog/courses/ - множество курсов бесплатных от го до иб и различных статей в придачу
-4. [CodeBasics](https://code-basics.com) — Бесплатное обучение Go.
-5. [Proglib](https://proglib.io/p/samouchitel-po-go-dlya-nachinayushchih-chast-1-osobennosti-i-sfera-primeneniya-go-ustanovka-nastroyka-2023-11-23) — многоступенчатый гайд по гошке
-6. [Coddy tech](https://Coddy.tech) — множество курсов по гошке и не только
-7. https://www.concurrency.rocks/ - там сразу можно изучить и антипаттерны, конкуренцию, горутины, оптимизации поиска и многое другое, не знал куда именно определеить, поэтому тут
-8. [Labex](https://labex.io/ru/courses) — множество практиковаться на виртуальных машинах и практиковать го плюс написать 5 проектов (остальное платное)
-9. [Quicref](https://quickref.me) — множество шпор
-10. https://codeby.games - отработка навыков хакинга
-11. https://www.willem.dev/articles/ - платформа с различнывми понятиями и обьяснениями тем в го
+| **Ресурс**                                                                                                                                           | **Тип**       | **Описание**                                          |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----------------------------------------------------- |
+| **[Exercism](https://exercism.org/tracks/go)**                                                                                                       | 🏋️ Практика  | Менторство и база заданий для отработки навыков.      |
+| **[Vectree](https://vectree.ru/path/38)**                                                                                                            | 🎓 Курс       | От Junior до Middle с проектами и визуализацией.      |
+| **[Selectel](https://selectel.ru/blog/courses/)**                                                                                                    | 📚 Библиотека | Бесплатные курсы (Go, InfoSec) и статьи.              |
+| **[CodeBasics](https://www.google.com/search?q=https://code-basics.com/languages/go)**                                                               | 🎓 Курс       | Бесплатный старт для новичков.                        |
+| **[Proglib](https://proglib.io/p/samouchitel-po-go-dlya-nachinayushchih-chast-1-osobennosti-i-sfera-primeneniya-go-ustanovka-nastroyka-2023-11-23)** | 📖 Гайд       | Пошаговый самоучитель по Go.                          |
+| **[Coddy tech](https://coddy.tech/)**                                                                                                                | 🎓 Курс       | Платформа с различными IT курсами.                    |
+| **[Concurrency](https://www.concurrency.rocks/)**                                                                                                    | 🧠 Advanced   | Конкурентность, горутины, оптимизация и антипаттерны. |
+| **[LabEx](https://labex.io/ru/courses)**                                                                                                             | 🖥️ VM        | Практика на виртуальных машинах + проекты.            |
+| **[QuickRef](https://quickref.me/go)**                                                                                                               | 📝 Шпора      | Справочник по синтаксису.                             |
+| **[Codeby](https://codeby.games/)**                                                                                                                  | 🛡️ Hacking   | Игры для отработки хакинга.                           |
+| **[Willem.dev](https://www.willem.dev/articles/)**                                                                                                   | 🧠 Статьи     | Объяснение сложных тем и понятий.                     |
+
+
 ---
 # Базовые понятия Go <a name="id2"></a>
-
-1. [Основы Go на YourBasic](https://yourbasic.org/golang/)
-2. [Основы го на русском](https://tour.ardanlabs.com/tour/rus/list)
-3. [Создание модуля в го](https://go.dev/doc/tutorial/create-module)
-4. [Курс по интерфейсам](https://www.calhoun.io/crash-course-on-go-interfaces/ )
-5. [Все о build](https://www.kelche.co/blog/go/build/)
-6. [Регулярные выражения в Go](https://tproger.ru/articles/puteshestvie-v-golang-regexp)
-7. [Итераторы в го](https://bitfieldconsulting.com/golang/iterators)
-8. [Указатели в го](https://www.alexedwards.net/blog/a-gentle-introduction-to-pointers)
-9. [Конфигурация линтера в го](https://olegk.dev/go-linters-configuration-the-right-version)
-10. [Хорошие гайды по гошке](https://www.willem.dev/articles/)
-11.  [Go: Structs & Interfaces](https://getstream.io/blog/go-structs-interfaces/)
-12.  https://go-cookbook.com - снипеты и примеры кода для го
-13.  https://habr.com/ru/companies/lamoda/articles/728920/ - как создать скелет микросервисов
-14.  https://habr.com/ru/articles/856272/ Интерфейсы обьяснение, что это и как  
+| **Тема**        | **Ссылка**                                                                     | **Описание**                           |
+| --------------- | ------------------------------------------------------------------------------ | -------------------------------------- |
+| **Основы**      | [YourBasic](https://yourbasic.org/golang/)                                     | Хорошая база знаний по языку.          |
+| **Основы (RU)** | [Ardan Tour](https://tour.ardanlabs.com/tour/rus/list)                         | Интерактивный учебник на русском.      |
+| **Модули**      | [Go Modules](https://go.dev/doc/tutorial/create-module)                        | Официальный туториал по модулям.       |
+| **Интерфейсы**  | [Crash Course](https://www.calhoun.io/crash-course-on-go-interfaces/)          | Подробный курс по интерфейсам.         |
+| **Сборка**      | [Go Build](https://www.kelche.co/blog/go/build/)                               | Детали работы команды `go build`.      |
+| **Regex**       | [Tproger Regex](https://tproger.ru/articles/puteshestvie-v-golang-regexp)      | Гайд по регулярным выражениям.         |
+| **Итераторы**   | [Iterators](https://bitfieldconsulting.com/golang/iterators)                   | Работа с итераторами.                  |
+| **Указатели**   | [Pointers](https://www.alexedwards.net/blog/a-gentle-introduction-to-pointers) | Введение в указатели для новичков.     |
+| **Линтеры**     | [Linter Config](https://olegk.dev/go-linters-configuration-the-right-version)  | Правильная конфигурация golangci-lint. |
+| **Гайды (Vis)** | [Willem.dev](https://www.willem.dev/articles/)                                 | **Хорошие гайды с визуализацией тем.** |
+| **Интерфейсы**  | [Structs & I-faces](https://getstream.io/blog/go-structs-interfaces/)          | Статья о структурах и интерфейсах.     |
+| **Сниппеты**    | [Cookbook](https://go-cookbook.com/)                                           | Готовые решения и примеры кода.        |
+| **Архитектура** | [Microservices](https://habr.com/ru/companies/lamoda/articles/728920/)         | Скелет микросервисов (Lamoda).         |
+| **Интерфейсы**  | [Habr Guide](https://habr.com/ru/articles/856272/)                             | Объяснение работы интерфейсов (RU).    |
 
 ---
 # Организация кода <a name="id3"></a>
-1. [12 правил организации кода](https://egonelbre.com/thoughts-on-code-organization/)
-2. [Еще одна версия 12 правил](https://12factor.net/)
-3. [организация кода для модуля](https://go.dev/doc/modules/layout)
-4. [структурировании Go-проекта](https://habr.com/ru/company/indriver/blog/690088/)
-5. [организация проекта](https://go.dev/doc/modules/layout)
-6. [структурировании Go-проекта](https://habr.com/ru/company/indriver/blog/690088/)
-7. [Поиск лучшей структуры Go-проекта: история о пути, который прошла команда HUMAN Security}](https://avivcarmi.com/finding-the-best-go-project-structure-part-1/)
-8. [Uber гайд написания на гошке](https://github.com/sau00/uber-go-guide-ru/tree/master)
-9. [Writing Secure Go Code | Jakub Jarosz](https://jarosz.dev/article/writing-secure-go-code/)
-10. https://news.ycombinator.com/item?id=42043939 - Написание безопасного кода на Go
-11. 
+| **Ресурс**                                                                                     | **Категория**   | **Описание**                             |
+| ---------------------------------------------------------------------------------------------- | --------------- | ---------------------------------------- |
+| **[Thoughts on Code Org](https://egonelbre.com/thoughts-on-code-organization/)**               | 🧠 Теория       | 12 правил организации кода.              |
+| **[12-Factor App](https://12factor.net/)**                                                     | 🏗️ Архитектура | Методология создания веб-приложений.     |
+| **[Go Module Layout](https://go.dev/doc/modules/layout)**                                      | 📁 Структура    | Официальный гайд по папкам модуля.       |
+| **[InDriver Structure](https://habr.com/ru/company/indriver/blog/690088/)**                    | 📁 Структура    | Опыт организации проекта в inDriver.     |
+| **[HUMAN Security Case](https://avivcarmi.com/finding-the-best-go-project-structure-part-1/)** | 📁 Структура    | Поиск лучшей структуры (история).        |
+| **[Uber Style Guide](https://github.com/sau00/uber-go-guide-ru/tree/master)**                  | 📏 Style Guide  | Перевод стандартов кода Uber.            |
+| **[Writing Secure Code](https://jarosz.dev/article/writing-secure-go-code/)**                  | 🛡️ Security    | Руководство по безопасному коду.         |
+| **[HN Discussion](https://news.ycombinator.com/item?id=42043939)**                             | 💬 Обсуждение   | Дискуссия о безопасности на YCombinator. |
+
+    
 
 ---
 # Ошибки и их исправления <a name="id4"></a>
 
-1. [Го ошибки](https://golang50shad.es/)
-2. [Ошибки Go](https://100go.co/)
-3. [Leak and Seek: A Go Runtime Mystery или расследование утечки памяти](https://cyolo.io/blog/leak-and-seek-a-go-runtime-mystery)
-4. [фундаментальные аспекты обработки ошибок в Go](https://medium.com/@methosi/master-golang-error-handling-a-comprehensive-step-by-step-guide-to-best-practices-698a0530604f)
-5. https://www.dolthub.com/blog/2023-04-14-keep-calm-and-panic/ - рассказывает о том, где имеет место паника, почему паника быстрее вызова ошибок и какие компромиссы между ними необходимо учитывать.
-
+| **Ресурс**                                                                                                                                        | **Тип**       | **Описание**                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------------- |
+| **[50 Shades of Go](https://golang50shad.es/)**                                                                                                   | ⚠️ Справочник | Ловушки, нюансы и частые ошибки ("грабли").       |
+| **[100 Go Mistakes](https://100go.co/)**                                                                                                          | 📚 Книга/Сайт | Большая коллекция ошибок с примерами исправлений. |
+| **[Leak and Seek](https://cyolo.io/blog/leak-and-seek-a-go-runtime-mystery)**                                                                     | 🕵️ Кейс      | Расследование сложной утечки памяти.              |
+| **[Master Handling](https://medium.com/@methosi/master-golang-error-handling-a-comprehensive-step-by-step-guide-to-best-practices-698a0530604f)** | 🧠 Гайд       | Все аспекты правильной обработки ошибок.          |
+| **[Keep Calm & Panic](https://www.dolthub.com/blog/2023-04-14-keep-calm-and-panic/)**                                                             | ⚡ Performance | Паника vs Ошибка: скорость и уместность.          |
 ---
 
 # Паттерны программирования в Go <a name="id5"></a>
 
-1. [Go Patterns: Перечень паттернов](https://github.com/AlexanderGrom/go-patterns)
-2. [Refactoring Guru: Паттерны на Go](https://refactoring.guru/ru/design-patterns/go)
-3. [“Common Go Performance Patterns” — распространённые паттерны производительности в Go.](https://goperf.dev/01-common-patterns/)
-
+| **Ресурс**                                                             | **Категория**  | **Описание**                                       |
+| ---------------------------------------------------------------------- | -------------- | -------------------------------------------------- |
+| **[Go Patterns](https://github.com/AlexanderGrom/go-patterns)**        | 📦 GitHub Repo | Примеры реализации классических паттернов и идиом. |
+| **[Refactoring Guru](https://refactoring.guru/ru/design-patterns/go)** | 📚 Справочник  | Отличное визуальное объяснение паттернов (GoF).    |
+| **[GoPerf Patterns](https://goperf.dev/01-common-patterns/)**          | ⚡ Performance  | Паттерны для оптимизации производительности.       |
 ---
 ## Linux <a name="id6"></a>
 
-1. https://labs.iximiuz.com/playgrounds - лабы
-2. https://kodekloud.com/free-labs
-3. https://linuxjourney.com/ - прямо с самого начала для детей
-4. https://linux-kernel-labs.github.io/refs/heads/master/index.html - лабы
-5. https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html - игра для линукс
-6. **[Основы GNU/Linux](https://gnulinux.pro/)**
-7. **[Обучение линукс, а именно командам путем детального описания](https://explainshell.com/ )**
+| **Ресурс**                                                                          | **Тип**       | **Описание**                              |
+| ----------------------------------------------------------------------------------- | ------------- | ----------------------------------------- |
+| **[Iximiuz Labs](https://labs.iximiuz.com/playgrounds)**                            | 🖥️ Песочница | Лабы в браузере (Linux/K8s/Docker).       |
+| **[KodeKloud](https://kodekloud.com/free-labs)**                                    | 🏋️ Практика  | Бесплатные задачи для инженеров.          |
+| **[Linux Journey](https://linuxjourney.com/)**                                      | 🎓 Курс       | Простое и доступное введение в Linux.     |
+| **[Kernel Labs](https://linux-kernel-labs.github.io/refs/heads/master/index.html)** | 🧠 Advanced   | Лабораторные работы по ядру Linux.        |
+| **[Terminus](https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html)**         | 🎮 Игра       | Квест для изучения командной строки.      |
+| **[GNU/Linux Pro](https://gnulinux.pro/)**                                          | 📚 Учебник    | Подробный гайд по основам (RU).           |
+| **[ExplainShell](https://explainshell.com/)**                                       | 🛠 Тулза      | Объясняет, что делает конкретная команда. |
 ---
 ## Пакеты <a name="id7"></a>
 
-1. **[Список рекомендуемых библиотек](https://threedots.tech/post/list-of-recommended-libraries/)**  
-   HTTP, базы данных, разработка CLI, тестирование, observability, конфигурация и многое другое: быстрый обзор 22-х Go-библиотек, проверенных в боевых условиях.
-2. **[Валидация данных в Go с Validator](https://thedevelopercafe.com/articles/payload-validation-in-go-with-validator-626594a58cf6)**  
-   Базовое руководство по работе с пакетом Validator, который реализует проверку значений для структур и отдельных полей на основе тегов.
-3. **[Анонс библиотеки goio](https://habr.com/ru/post/667164/)**  
-   Анонс библиотеки потоковой обработки данных goio, вдохновлённой Scala-библиотеками cats-effect и fs2.
-4. **[Goyek v2.1.0](https://github.com/goyek/goyek/releases/tag/v2.1.0)**  
-   Библиотека для автоматизации задач.
+| **Ресурс**                                                                                                        | **Тип**       | **Описание**                                             |
+| ----------------------------------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------- |
+| **[Recommended List](https://threedots.tech/post/list-of-recommended-libraries/)**                                | 🌟 Подборка   | Обзор 22-х библиотек для основных задач (HTTP, DB, etc). |
+| **[Validator Guide](https://thedevelopercafe.com/articles/payload-validation-in-go-with-validator-626594a58cf6)** | 🛡️ Валидация | Гайд по проверке данных через теги структур.             |
+| **[Goio](https://habr.com/ru/post/667164/)**                                                                      | 🌊 Streams    | Потоковая обработка данных (стиль Scala/FP).             |
+| **[Goyek](https://github.com/goyek/goyek/releases/tag/v2.1.0)**                                                   | 🤖 Automation | Task Runner для автоматизации процессов.                 |
 
 ### Серия статей о работе со временем в Go <a name="id8"></a>
 
-- **[Parse timestamp formats](https://dev.to/aohorodnyk/parse-timestamp-on-backend-m0h)**  
-- **[Parse time from different non-timestamp formats](https://dev.to/aohorodnyk/parse-time-from-different-non-timestamp-formats-4kb9)**  
-- **[Universal time UnmarshalJSON implementation](https://dev.to/aohorodnyk/universal-time-unmarshaljson-implementation-3okm)**  
-
+| **Статья**                                                                                                 | **Тема**     | **Описание**                                         |
+| ---------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------- |
+| **[Parse Timestamps](https://dev.to/aohorodnyk/parse-timestamp-on-backend-m0h)**                           | 🔢 Timestamp | Парсинг числовых меток времени на бэкенде.           |
+| **[Parse String Formats](https://dev.to/aohorodnyk/parse-time-from-different-non-timestamp-formats-4kb9)** | 📝 Strings   | Парсинг времени из нестандартных строковых форматов. |
+| **[Universal Unmarshal](https://dev.to/aohorodnyk/universal-time-unmarshaljson-implementation-3okm)**      | 🔄 JSON      | Гибкая реализация `UnmarshalJSON` для времени.       |
 ---
 
 ## Тестирование <a name="id9"></a>
 
 ### Дополнение к книге "100 ошибок Go" от создателя
-
+| **Ресурс**                                                                                                | **Категория**  | **Описание**                                    |
+| --------------------------------------------------------------------------------------------------------- | -------------- | ----------------------------------------------- |
+| **[Learn Go with Tests](https://s0xzwasd.gitbook.io/learn-go-with-tests-ru/osnovy-go/install-go)**        | 🎓 TDD         | Изучение языка через написание тестов.          |
+| **[Testing in Go (RU)](https://proglib.io/w/40f22786)**                                                   | 📚 Статья      | Обзор основ тестирования (Proglib).             |
+| **[JetBrains Guide](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/)**     | 📚 Гайд        | Полное руководство по тестированию.             |
+| **[GolangCI-Lint](https://golangci-lint.run/)**                                                           | 🛠 Linter      | Мощный линтер для статического анализа.         |
+| **[Test Parallelism](https://threedots.tech/post/go-test-parallelism/)**                                  | ⚡ Optimization | Оптимизация и визуализация параллельных тестов. |
+| **[Integration Tests](https://habr.com/ru/companies/netologyru/articles/947796/)**                        | 🧪 Integration | Статья об интеграционном тестировании.          |
+| **[Accurate Benchmarks](https://teivah.medium.com/how-to-write-accurate-benchmarks-in-go-4266d7dd1a95)**  | ⏱️ Benchmark   | Ловушки и ошибки при замерах скорости.          |
+| **[Concurrency Limits](https://teivah.medium.com/concurrency-isnt-always-faster-in-go-de325168907c)**     | 🧠 Deep Dive   | Почему конкурентность не всегда быстрее.        |
+| **[Fuzzing (Habr)](https://habr.com/ru/company/kaspersky/blog/696724/)**                                  | 🐛 Security    | Фаззинг-тестирование от Kaspersky.              |
+| **[Ozon Tech BDD](https://habr.com/ru/company/ozontech/blog/672678/)**                                    | 📦 Library     | Библиотека для BDD тестов.                      |
+| **[GopherCon 2022](https://www.youtube.com/watch?v=v24wrd3RwGo&list=PL2ntRZ1ySWBfiSJSt-zPRbVSMDfK0EwQC)** | 🎥 Видео       | Доклады с конференции (WebAssembly, Fuzzing).   |
+| **[Supply Chain Sec](https://t.me/goproglib/3560)**                                                       | 🛡️ Security   | Безопасность цепочки поставок.                  |
 - **[Concurrency isn’t always faster in Go](https://teivah.medium.com/concurrency-isnt-always-faster-in-go-de325168907c)**  
    Автор "100 Go Mistakes" делится фундаментальными знаниями о конкурентности в Go и показывает пример, где к производительности конкурентного решения «есть вопросы».
 
-1. **[Установка Go | Изучение Go через тестирование](https://s0xzwasd.gitbook.io/learn-go-with-tests-ru/osnovy-go/install-go)**  
-2. **[Тестирование в Go](https://proglib.io/w/40f22786)**
-3. https://threedots.tech/post/go-test-parallelism/ - оптимизация и визуализация параллелизма тестов Go 
-4. **[GolangCI-Lint](https://golangci-lint.run/)**
-5. https://habr.com/ru/companies/netologyru/articles/947796/ - интеграционное тестирование 
-   Библиотека для тестов.
-6. **[GopherCon 2022](https://www.youtube.com/watch?v=v24wrd3RwGo&list=PL2ntRZ1ySWBfiSJSt-zPRbVSMDfK0EwQC)**  
-   От синтаксического анализа и сборки мусора до WebAssembly и фаззинг-тестирования: доклады на GopherCon 2022.
-7. **[Comprehensive Guide to Testing in Go](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/)**  
-   Полное руководство по тестированию.
-8. **[Про фаззинг](https://habr.com/ru/company/kaspersky/blog/696724/)**  
-9. **[How to Write Accurate Benchmarks in Go](https://teivah.medium.com/how-to-write-accurate-benchmarks-in-go-4266d7dd1a95)**  
-   Разбор четырёх распространённых ловушек, которые ведут к неточностям тестирования в Go.
-10. **[Create Your Tests Easily](https://habr.com/ru/company/ozontech/blog/672678/)**  
-   Анонс open source библиотеки от Ozon Tech в BDD-стиле, которая облегчает создание автотестов.
-11. **[Безопасность цепочки поставок с Go](https://t.me/goproglib/3560)**  
 
 ### Безопасность цепочки поставок: серия статей Go-разработчика
 
