@@ -158,56 +158,63 @@
 | **[Ozon Tech BDD](https://habr.com/ru/company/ozontech/blog/672678/)**                                    | 📦 Library     | Библиотека для BDD тестов.                      |
 | **[GopherCon 2022](https://www.youtube.com/watch?v=v24wrd3RwGo&list=PL2ntRZ1ySWBfiSJSt-zPRbVSMDfK0EwQC)** | 🎥 Видео       | Доклады с конференции (WebAssembly, Fuzzing).   |
 | **[Supply Chain Sec](https://t.me/goproglib/3560)**                                                       | 🛡️ Security   | Безопасность цепочки поставок.                  |
-- **[Concurrency isn’t always faster in Go](https://teivah.medium.com/concurrency-isnt-always-faster-in-go-de325168907c)**  
-   Автор "100 Go Mistakes" делится фундаментальными знаниями о конкурентности в Go и показывает пример, где к производительности конкурентного решения «есть вопросы».
+
 
 
 ### Безопасность цепочки поставок: серия статей Go-разработчика
 
-- **[Часть 1](https://security.googleblog.com/2023/04/supply-chain-security-for-go-part-1.html)**  
-- **[Часть 2](https://security.googleblog.com/2023/06/supply-chain-security-for-go-part-2.html)**  
-- **[Часть 3](https://security.googleblog.com/2023/07/supply-chain-security-for-go-part-3.html)**  
+| **Часть**   | **Ссылка**                                                                                              | **Тема**                               |
+| ----------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| **Часть 1** | **[Overview](https://security.googleblog.com/2023/04/supply-chain-security-for-go-part-1.html)**        | Введение, Go Modules и `go.sum`.       |
+| **Часть 2** | **[Vulnerabilities](https://security.googleblog.com/2023/06/supply-chain-security-for-go-part-2.html)** | Поиск уязвимостей через `govulncheck`. |
+| **Часть 3** | **[Integrity](https://security.googleblog.com/2023/07/supply-chain-security-for-go-part-3.html)**       | Целостность пакетов и Checksum DB.     |
 
 ### Серия руководств о фаззинг-тестировании в Go
 
-11. **[Random testing in Go](https://bitfieldconsulting.com/golang/random-testing)**  
-12. **[Fuzz tests in Go](https://bitfieldconsulting.com/golang/fuzz-tests)**  
-13. **[Writing a Go fuzz target](https://bitfieldconsulting.com/golang/fuzz-target)**  
-14. **[Finding bugs with fuzzing](https://bitfieldconsulting.com/golang/bugs-fuzzing)**  
+| **Этап**           | **Статья**                                                                 | **Описание**                                 |
+| ------------------ | -------------------------------------------------------------------------- | -------------------------------------------- |
+| **1. Концепция**   | **[Random testing](https://bitfieldconsulting.com/golang/random-testing)** | В чем суть тестирования на случайных данных. |
+| **2. Инструменты** | **[Fuzz tests in Go](https://bitfieldconsulting.com/golang/fuzz-tests)**   | Использование нативного фаззера Go (1.18+).  |
+| **3. Реализация**  | **[Writing targets](https://bitfieldconsulting.com/golang/fuzz-target)**   | Создание эффективных Fuzz Targets.           |
+| **4. Практика**    | **[Finding bugs](https://bitfieldconsulting.com/golang/bugs-fuzzing)**     | Кейс по поиску и устранению бага.            |
 
 ---
 
 ## Логирование <a name="id10"></a>
 
-1. **[Полный гайд по Zerolog](https://betterstack.com/community/guides/logging/zerolog/)**  
-   Как установить, настроить и использовать Zerolog logger в Go-приложении.
-2. **[Логирование в Go: от основ до профи](https://www.bytesizego.com/blog/guide-to-logging-in-go)**  
-3. **[Обработка огромных лог-файлов](https://www.madhur.co.in/blog/2023/06/10/processing-huge-log-files.html)**  
-   Обработка огромных лог-файлов с помощью Go и Python.
+| **Ресурс**                                                                                    | **Категория** | **Описание**                                     |
+| --------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------------ |
+| **[Zerolog Guide](https://betterstack.com/community/guides/logging/zerolog/)**                | 🛠 Библиотека | Гайд по внедрению и настройке Zerolog.           |
+| **[Logging Guide](https://www.bytesizego.com/blog/guide-to-logging-in-go)**                   | 📚 Учебник    | От основ `log` до структурного логирования.      |
+| **[Huge Log Files](https://www.madhur.co.in/blog/2023/06/10/processing-huge-log-files.html)** | ⚡ Data Eng    | Обработка больших объемов данных (Go vs Python). |
 
 ---
 
 ## API <a name="id11"></a>
 
-1. **[Golang APIs: скелетон для будущих проектов](https://blog.devgenius.io/golang-apis-a-skeleton-for-your-future-projects-a082dc4d6818)**  
-   Серия статей о построении скелетона для API на Go.
-2. https://escape.tech/academy/ - можно изучить защиту апи и ее атаку, для тестирования своего продукта
-3. https://rapidapi.com/hub - 51 тысяча различных апи
+| **Ресурс**                                                                                                 | **Тип**         | **Описание**                                     |
+| ---------------------------------------------------------------------------------------------------------- | --------------- | ------------------------------------------------ |
+| **[API Skeleton](https://blog.devgenius.io/golang-apis-a-skeleton-for-your-future-projects-a082dc4d6818)** | 🏗️ Архитектура | Готовая структура (скелет) для создания API.     |
+| **[Escape Academy](https://escape.tech/academy/)**                                                         | 🛡️ Обучение    | Курсы по безопасности API (Attack & Defense).    |
+| **[RapidAPI Hub](https://rapidapi.com/hub)**                                                               | 🌐 Маркетплейс  | Огромная база (50k+) готовых API для интеграции. |
 
 ---
 
 ## Конкурентность <a name="id12"></a>
 
-1. **[Concurrency, race conditions и контроль](https://sayedalesawy.hashnode.dev/concurrency-race-conditions-and-concurrency-control)**  
-   Что такое конкурентность (можно читать перед книгой о конкурентности).
-2. **[Шаблоны конкурентности](https://dev.to/karanpratapsingh/advanced-concurrency-patterns-in-go-2je1)**  
+| **Ресурс**                                                                                                             | **Уровень** | **Описание**                                    |
+| ---------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------- |
+| **[Race Conditions & Control](https://sayedalesawy.hashnode.dev/concurrency-race-conditions-and-concurrency-control)** | 🧠 Теория   | Что такое конкурентность и гонка данных (Base). |
+| **[Advanced Patterns](https://dev.to/karanpratapsingh/advanced-concurrency-patterns-in-go-2je1)**                      | 🚀 Практика | Продвинутые шаблоны (Pipeline, Fan-out, etc.).  |
 
 ---
 
 ## Горутины <a name="id13"></a>
 
-- **[Внутренности горутин и каналов в Go](https://proglib.io/w/94177b59)**
-- **[Goroutines in Go: A Practical Guide to Concurrency](https://getstream.io/blog/goroutines-go-concurrency-guide/)**
+| **Ресурс**                                                                         | **Уровень**  | **Описание**                               |
+| ---------------------------------------------------------------------------------- | ------------ | ------------------------------------------ |
+| **[Внутренности горутин](https://proglib.io/w/94177b59)**                          | ⚙️ Deep Dive | Разбор устройства рантайма и каналов (RU). |
+| **[Goroutines Guide](https://getstream.io/blog/goroutines-go-concurrency-guide/)** | 🔨 Практика  | Гайд по созданию и синхронизации горутин.  |
 
 ---
 
