@@ -266,11 +266,11 @@
 
 ## Введение в основные библиотеки <a name="id18"></a>
 
-
-1. **[Cover - Spaceship Go](https://blasrodri.github.io/spaceship-go-gh-pages/cover.html)**  
-2. **[Requests v0.23.4](https://github.com/carlmjohnson/requests/releases/tag/v0.23.4)**  
-3. **[Zap для Go-разработчика](https://betterstack.com/community/guides/logging/go/zap/)**  
-   Подробное введение в популярный пакет логирования.
+| **Ресурс**                                                                          | **Тип**       | **Описание**                           |
+| ----------------------------------------------------------------------------------- | ------------- | -------------------------------------- |
+| **[Spaceship Go](https://blasrodri.github.io/spaceship-go-gh-pages/cover.html)**    | 🎮 Game/Demo  | Игра в браузере на Go (WebAssembly).   |
+| **[Requests (Lib)](https://github.com/carlmjohnson/requests/releases/tag/v0.23.4)** | 📦 Библиотека | HTTP-клиент для упрощения запросов.    |
+| **[Zap Guide](https://betterstack.com/community/guides/logging/go/zap/)**           | 📚 Туториал   | Гайд по сверхбыстрому логгеру от Uber. |
 
 ---
 
@@ -484,26 +484,23 @@
 
 ## DevOps <a name="id27"></a>
 
-- **[Самоучитель по CI/CD и Kubernetes](https://ru.werf.io/guides/golang/100_basic.html)**  
-   Бесплатный курс для Go-разработчиков.
-- **[Приватные модули Go с Docker](https://medium.com/the-godev-corner/how-to-create-a-go-private-module-with-docker-b705e4d195c4)**  
-   Пошаговый гайд.
-- **[Учебник по Git](https://coderlessons.com/tutorials/devops/uchitsia-git/git-tutorial)**  
-   Множество гайдов с инструментами.
-- **[CNCF Landscape](https://landscape.cncf.io/)**  
-   Все технологии.
-- **[DevSecOps обучение](https://devsecopsguides.com/docs/rules/go/)**
-- **[внедрение CI CD](https://proglib.io/sh/k31RpYdjES)** 
+| **Ресурс**                                                                                                            | **Категория** | **Описание**                                    |
+| --------------------------------------------------------------------------------------------------------------------- | ------------- | ----------------------------------------------- |
+| **[Werf: CI/CD & K8s](https://ru.werf.io/guides/golang/100_basic.html)**                                              | 🎓 Курс       | Самоучитель по Kubernetes для Go-разработчиков. |
+| **[Внедрение CI/CD](https://proglib.io/sh/k31RpYdjES)**                                                               | 🚀 Guide      | Статья о принципах построения пайплайнов.       |
+| **[Private Modules](https://medium.com/the-godev-corner/how-to-create-a-go-private-module-with-docker-b705e4d195c4)** | 🐳 Docker     | Настройка приватных модулей в Docker.           |
+| **[DevSecOps Guides](https://devsecopsguides.com/docs/rules/go/)**                                                    | 🛡️ Security  | Правила безопасности для Go в DevOps.           |
+| **[Git Tutorial](https://coderlessons.com/tutorials/devops/uchitsia-git/git-tutorial)**                               | 🛠 Git        | Большой учебник по системе контроля версий.     |
+| **[CNCF Landscape](https://landscape.cncf.io/)**                                                                      | 🗺️ Map       | Карта технологий Cloud Native экосистемы.       |
 
 ### Kubernetes 
 
-- **[Cilium и AKS](https://isovalent.com/blog/post/cilium-egress-gateway-aks/)**  
-   Развёртывание Cilium и выходного шлюза в Azure Kubernetes.
-- **[Kube Academy](https://kube.academy/courses)**  
-   Курс по Kubernetes.
-- **[Kubernetes VMware Cloud](https://vmc.techzone.vmware.com/kubernetes-vmware-cloud-course)**  
-   Курс по Kubernetes.
-- https://docs.dobry-kot.ru/blog/kubernetes-the-hard-way/ - полный пошаговый гайд по сборке Kuberentes
+| **Ресурс**                                                                          | **Тип**     | **Описание**                                      |
+| ----------------------------------------------------------------------------------- | ----------- | ------------------------------------------------- |
+| **[Cilium & AKS](https://isovalent.com/blog/post/cilium-egress-gateway-aks/)**      | ⚙️ Network  | Настройка Cilium Gateway в облаке Azure.          |
+| **[Kube Academy](https://kube.academy/courses)**                                    | 🎓 Курсы    | Большая база курсов по K8s (VMware).              |
+| **[K8s The Hard Way](https://docs.dobry-kot.ru/blog/kubernetes-the-hard-way/)**     | 🛠 Hardcore | Ручная сборка кластера для понимания кишков (RU). |
+| **[K8s on VMware](https://vmc.techzone.vmware.com/kubernetes-vmware-cloud-course)** | ☁️ Cloud    | Специфика работы K8s в VMware Cloud.              |
 
 ### Сети <a name="id28"></a>
 
